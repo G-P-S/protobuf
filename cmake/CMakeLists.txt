@@ -166,7 +166,7 @@ endif (protobuf_UNICODE)
 include(libprotobuf-lite.cmake)
 include(libprotobuf.cmake)
 include(libprotoc.cmake)
-include(protoc.cmake)
+#include(protoc.cmake)
 
 if (protobuf_BUILD_TESTS)
   include(tests.cmake)
