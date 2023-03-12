@@ -3,7 +3,7 @@
   "rules": {
     "root": "cmake/",
     "win": {
-      "flags": "-Dprotobuf_BUILD_TESTS=OFF -Dprotobuf_BUILD_EXAMPLES=OFF -Dprotobuf_MSVC_STATIC_RUNTIME=OFF -Dprotobuf_DEBUG_POSTFIX="
+      "flags": "-Dprotobuf_BUILD_TESTS=OFF -Dprotobuf_BUILD_EXAMPLES=OFF -Dprotobuf_BUILD_SHARED_LIBS=ON -Dprotobuf_DEBUG_POSTFIX="
     }
   }
 }
