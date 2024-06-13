@@ -1,0 +1,10 @@
+{
+    "version": "3.27.1",
+
+    "info": {
+        "type": "lib",
+        "visibility": "public",
+        "platforms": ["anrdoid", "ios", "linux", "macos", "win"]
+    }
+}
+
